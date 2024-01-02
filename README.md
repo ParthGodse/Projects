@@ -16,7 +16,7 @@ reducing turnover by 11%. Implemented real-time data updates through MongoDB Atl
 
 Topic modeling is an unsupervised machine learning technique that’s capable of scanning a set of documents, detecting word and phrase patterns within them, and automatically clustering word groups and similar expressions that best characterize a set of documents. It includes classification hierarchy, Topic modelling methods, different evolution models of latent Dirichlet allocation (LDA), Latent semantic analysis (LSA). Data preprocessing ws done using NLP techniques while incorporating pyLDAvis and gensim for visualization as well and above models for comparative study.
 
-## 4] XAI-GANs (Capstone Project)
+## 5] XAI-GANs (Capstone Project)
 
 Create our own deep faked audio using Generative Adversarial Neural Networks (GANs) and objectively evaluate generator quality using Fréchet Audio Distance (FAD) metric. We augment a pre-existing dataset of real audio samples with our fake generated samples and classify data as real or fake using MobileNet, Inception, VGG and custom CNN models. MobileNet is the best performing model with an accuracy of 91.5% and precision of 0.507. We further convert our black box deep learning models into white box models, by using explainable AI (XAI) models. We quantitatively evaluate the classification of a MEL Spectrogram through LIME, SHAP and GradCAM models. We compare the features of a spectrogram that an XAI model focuses on to provide a qualitative analysis of frequency distribution in spectrograms.
 
